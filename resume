@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DEEPIKA NARWANI- Resume</title>
+  <style>
+    img, h1{
+      display: inline-block;
+      align-items: center;
+    }
+    h1{
+      align-content: center;
+      padding-left: 10px;
+      
+      font-size: 50px ;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <img src="C:\Users\NAKUL\OneDrive\Pictures\deepika.jpg" alt="deepika" height = "200" width="150" border = "circle">
+  <h1><i>Deepika Narwani</i></h1>
+  <p>Address: 112/93 AGARWAL FARM MANSAROVAR JAIPUR</p>
+<p>Email: deepikanarwani2003@gmail.com</p>
+<p>Phone: 7340380562</p>
+
+<hr>
+
+<h2>objective</h2>
+<p>Highly motivated and proactive B.Tech student pursuing computer science and engineering with a passion for studing computer languages. Seeking an opportunity to apply technical skills, project experience and leadership abilities in a challenging role within the technical industries</p>
+
+<hr>
+
+<h2>Education</h2>
+<p>Bachelor of technology(B.Tech) in computer science and engineering <br>
+POORNIMA COLLEGE OF engineering, JAIPUR
+</p>
+
+
+<hr>
+
+<h2>Project</h2>
+<h3>Radio controlled car(college project)</h3>
+<p>Designed and implemented a radio controlled car for colledge project showcasing practical application of engineering concept and team work </p>
+
+<hr>
+<h2>Skills</h2>
+<ul>
+  <li>Excellent communicaton skills</li>
+  <li>proven leadership abilities</li>
+  <li>qick decision maker in high pressure situations</li>
+  <li>Multitasking capabilites</li>
+  <li>good in making report, ppt and flow charts</li>
+</ul>
+<hr>
+<h2>certifications</h2>
+<ul>
+    <li>Human resource skill workshop at TAREEQA GLOBAL SOLUTIONS PVT. LTD</li>
+    <li>Two days workshop on design thinking organisation by POORNIMA INNOVATION AND INCUBATION CELL(PIIC)</LI>
+    <li>Participate certification in MIGHTY THROTTLE at the event RENAISSANCE in JECRC college</li>
+</ul>
+
+
+</body>
+</html>
