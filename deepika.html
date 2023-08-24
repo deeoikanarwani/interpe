@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> "DEEPIKA NARWANI" - Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 0;
+        }
+        header {
+            background-color:black;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: red;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .project {
+            margin-bottom: 2rem;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DEEPIKA NARWANI</h1>
+        <p>B.TECH STUDENT</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Highly motivated and proactive B.Tech student pursuing computer science and engineering with a passion for studing computer languages. Seeking an opportunity to apply technical skills, project experience and leadership abilities in a challenging role within the technical industries</p>
+    </div>
+    <div class="container" id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Radio controlled car(college project)</h3>
+            <p>Designed and implemented a radio controlled car for college project showcasing practical application of engineering concept and team work .</p>
+        </div>
+        <img src="C:\Users\NAKUL\OneDrive\Pictures\HR SKILLS DEEPIKA.jpg" alt="TAREEQA GLOBAL SOLUTION PVT. LTD style="width:100px; height="100px;">
+         <div class="certificates">
+            <   <h6>HUMAN RESOURCE</h6>
+        </div>
+        <img src="C:\Users\NAKUL\OneDrive\Pictures\PIIC DEEPIKA.jpg" alt="POORNIMA INNOVATION AND INCUBATION CELL(PIIC) style="width:200px; height="200px;">
+         <div class="certificates">
+            <   <h6>DESIGN THINKING </h6>
+        </div>
+       <img src="C:\Users\NAKUL\OneDrive\Pictures\JECRC DEEPIKA.jpg" alt= mighty throttle style="width:200px; height="200px;">
+         <div class="certificates">
+            <   <h6>RENAISSANCE</h6>
+   
+    </div>
+       <div class="container" id="skills">
+<h2>skills<h2>
+<ul>
+  <li>Excellent communicaton skills</li>
+  <li>proven leadership abilities</li>
+  <li>qick decision maker in high pressure situations</li>
+  <li>Multitasking capabilites</li>
+  <li>good in making report, ppt and flow charts</li>
+</ul>
+
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script>
+        // Add your JavaScript for form validation and interactivity here
+        const contactForm = document.getElementById('contact-form');
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+        const messageInput = document.getElementById('message');
+
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
+                alert('Please fill in all fields');
+            } else {
+                alert('Message sent successfully!');
+                contactForm.reset();
+            }
+        });
+    </script>
+</body>
+</html>
